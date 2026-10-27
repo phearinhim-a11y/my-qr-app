@@ -1,0 +1,15 @@
+/* កំណត់ Stylings ទូទៅសម្រាប់អេក្រង់ទាំងមូល */
+:root {
+  font-family: Arial, sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #242424;
+  color: #ffffff;
+}

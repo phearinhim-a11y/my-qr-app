@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 14px 28px; /* ពង្រីកបន្តិចដើម្បីឱ្យស្រួលចុចដោយម្រាមដៃ */
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.img-box img {
+  width: 200px;
+  max-width: 100%; /* ការពារកុំឱ្យរូបភាពហៀរហួសទំហំអេក្រង់ទូរសព្ទ */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
