@@ -9,7 +9,7 @@ const App = () => {
     <div className="container">
       {/* ពេលចុចប៊ូតុង វាจะប្តូរតម្លៃ showQR ឱ្យផ្ទុយពីមុន */}
       <button className="btn" onClick={() => setShowQR(!showQR)}>
-        {showQR ? 'My QR Code' : 'Click'}
+        {showQR ? 'Som 5$ mor' : 'Click'}
       </button>
 
       {/* បើកការបង្ហាញ QR Code នៅពេលដែល showQR មានតម្លៃ true */}
